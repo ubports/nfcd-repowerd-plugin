@@ -99,9 +99,6 @@ repowerd_display_signal_cb(
     GVariant *parameters, gpointer user_data)
 {
     RepowerdPlugin* self = THIS(user_data);
-    printf("%s: %s.%s %s\n",object_path,interface_name,signal_name,
-        g_variant_print(parameters,TRUE));
-    
     gint state = 0;
     gint reason = 0;
     g_variant_get(parameters, "(ii)", &state, &reason);
