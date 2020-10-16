@@ -1,0 +1,2 @@
+nfcd plugin for repowerd-based device state tracking.
+Keeps NFC off when display is off.

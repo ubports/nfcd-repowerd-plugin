@@ -1,0 +1,5 @@
+nfcd-repowerd-plugin (0.1) xenial; urgency=low
+
+  * Initial release
+
+ -- Alfred Neumayer <dev.beidl@gmail.com>  Fri, 16 Oct 2020 17:36:58 +0200
